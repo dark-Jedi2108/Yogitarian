@@ -20,6 +20,12 @@ p {
   -webkit-background-clip: text;
   color: rgba(255, 255, 255, 0.0003);
   line-height: 10px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
 }
 
 .mainHeader {
