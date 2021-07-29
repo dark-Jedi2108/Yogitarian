@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #000;
+  height: 100vh;
+}
+p {
+  text-align: justify;
+  background: url(../IMG/wp1885552-mahatma-gandhi-wallpapers.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: left top;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(255, 255, 255, 0.0003);
+  line-height: 10px;
+}
+
+.mainHeader {
+  position: relative;
+}
+
+.quoteText {
+  color: rgba(255, 255, 255, 50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-5%, -50%);
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 1.5px;
+  font-size: 64px;
+}
+
+.buttonLink {
+  background-color: rgba(255, 255, 255, 50%);
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(180%, 300%);
+  border-radius: 20px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 700;
+  transition: 0.5s all;
+}
+
+.buttonLink:hover {
+  border: 1px solid rgba(255, 255, 255, 50%);
+  background-color: black;
+  color: rgba(255, 255, 255, 50%);
+  transition: 0.5s all;
+}
